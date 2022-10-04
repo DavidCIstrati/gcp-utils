@@ -16,7 +16,7 @@ setup(
     description="Util functions for google cloud platform.",
     license="Apache 2",
     keywords="gcp google cloud platform",
-    url="",
+    url="https://github.com/DavidCIstrati/gcp-utils.",
     install_requires=[
         'oauth2client', 'google-api-python-client', 'tqdm'
     ],
