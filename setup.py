@@ -1,5 +1,6 @@
 import os
-from setuptools import setup
+
+from setuptools import setup, find_packages
 
 
 # Utility function to read the README file.
@@ -19,7 +20,7 @@ setup(
     install_requires=[
         'oauth2client', 'google-api-python-client', 'tqdm'
     ],
-    packages=['src', 'tests'],
+    packages=find_packages("src"),
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 1 - Beta",
