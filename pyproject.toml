@@ -1,5 +1,5 @@
 [project]
-name = "GCPUTILS"
+name = "gcp_utils"
 version = "0.0.1"
 authors = [
   { name="David C. Istrati", email="dcistr26@colby.edu" },

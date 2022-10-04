@@ -8,7 +8,7 @@ def read(fname):
 
 
 setup(
-    name="GCPUTILS",
+    name="gcp_utils",
     version="0.0.1",
     author="David Istrati",
     author_email="dcistr26@colby.edu",
