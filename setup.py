@@ -1,30 +1,14 @@
-import os
+import setuptools
 
-from setuptools import setup, find_packages
-
-
-# Utility function to read the README file.
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
-
-
-setup(
+setuptools.setup(
     name="gcp_utils",
+    zip_safe=False,
     version="0.0.1",
     author="David Istrati",
     author_email="dcistr26@colby.edu",
-    description="Util functions for google cloud platform.",
-    license="Apache 2",
-    keywords="gcp google cloud platform",
-    url="https://github.com/DavidCIstrati/gcp-utils.",
-    install_requires=[
-        'oauth2client', 'google-api-python-client', 'tqdm'
-    ],
-    packages=find_packages("src"),
-    long_description=read('README.md'),
-    classifiers=[
-        "Development Status :: 1 - Beta",
-        "Topic :: Utilities",
-        "License :: OSI Approved :: Apache 2 License",
-    ],
+    description="Utilities for GCP",
+    url="https://github.com/DavidCIstrati/gcp_utils",
+    package_dir={"": "src"},
+    packages=setuptools.find_packages("src"),
+    python_requires=">=3.7",
 )

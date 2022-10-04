@@ -3,7 +3,9 @@ Util functions for google cloud platform.
 
 ## Install
 ```commandline
-python -m pip install 'gcp_utils @ git+https://github.com/DavidCIstrati/gcp-utils.git'
+git clone https://github.com/DavidCIstrati/gcp_utils
+cd gcp_utils
+python setup.py install
 ```
 
 ## Usage
